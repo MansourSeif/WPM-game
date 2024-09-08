@@ -121,6 +121,7 @@ h1 {
     }
     .card{
         height: 3rem;
+        font-size: 10px;
     }
 }
 
