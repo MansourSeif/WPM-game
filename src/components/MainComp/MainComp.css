@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;    
+}
+
+h1 {
+    font-family: "Retro";
+    font-size: 50px;
+}
+.text-placeholder{
+    align-self: center;
+    width: 70%;
+    border-top: 5px solid #FEB765;
+    border-left: 5px solid #FEDC86;
+    border-bottom: 10px solid #340185;
+    border-right: 10px solid #340185;
+    
+}
+.header{
+    
+    background-color: #FE8D7D;     
+    width: 99% ;
+    height: 3rem;
+    border-right: 11px solid #C36281;
+    border-bottom: 5px solid #C36281;
+    font-family: "Retro";
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.subtitle{
+    background-color: #FEDABE;
+    width: 99% ;
+    height: 2rem;
+    border-top: 5px solid #FEDC86;
+    border-right: 11px solid #C298AF;
+    border-bottom: 5px solid #C298AF;
+}
+.text{
+    color:#2f2c22ac ;
+    align-content: center;
+    text-align: justify;
+    width: 100%;
+    font-family: "Retro";
+    font-size: 1.375rem;
+    
+}
+.paragraph{
+    background-color: #FEDABE;
+    padding: 2rem;
+    border-top: 5px solid #330084;
+    border-left: 5px solid #330084;
+        
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.input-bar{
+    font-family: "Retro";
+    align-self: center;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: large;
+    border : 5px solid #FF8C7D ; 
+    background-color : #fefcc2;
+    border-right-color: #330084;
+    border-bottom-color: #330084;
+}
+.correct-char {
+    color: green;
+  }
+  
+  .current-char {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+  }
+  
+  .char {
+    color: black;
+  }
+  .subbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: "Retro";
+
+  }
+  .card{
+    align-content: center;
+    background-color: #FEDABE;
+    width: 10% ;
+    height: 2rem;
+    border-top: 5px solid #FEDC86;
+    border-right: 5px solid #330084;
+    border-bottom: 5px solid #330084;
+    border-left: 5px solid #FE8D7D;
+    border-top: 5px solid #FE8D7D;
+  }
+  
+
+@media only screen and (max-width: 768px) {
+    p {
+        width: 80%;
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    p {
+        width: 90%;
+        font-size: 1rem; 
+    }
+}
+
