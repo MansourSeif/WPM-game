@@ -119,6 +119,9 @@ h1 {
         width: 80%;
         font-size: 1.25rem;
     }
+    .card{
+        height: 3rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
