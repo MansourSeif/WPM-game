@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './MainComp.css';
+import { generate } from "random-words";
 
-const paragraph = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cupiditate architecto at, earum facere libero quis hic repudiandae ipsam explicabo non rem autem sint! Debitis aliquid modi corporis. Ipsum, adipisci.";
+
+const paragraph = generate({ minLength: 6, maxLength: 10000 ,exactly: 25, join: " " });
 const theText = paragraph.trim().split('');
 
 const MainComp = () => {
@@ -75,14 +77,16 @@ const MainComp = () => {
         <div className='textarea-container'>
           <h1>WPM Game</h1>
           <div className="subbar">
+            
 
         <div className='card'>
           WPM: {wpm}
         </div>
           <div className="card">
          Errors: {errorCount}
-          </div>
-          </div>
+        </div>
+           
+        </div>
           <div className='text-placeholder'>
             <div className='header'>Paragraph</div>
             <div className='paragraph'>
